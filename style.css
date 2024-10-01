@@ -1,1 +1,19 @@
+/* this is a commenet */
 
+/* select element by type */
+p {
+    color : rgb(132, 226, 230);
+}
+h1{
+    font-family: 'Courier New', Courier, monospaced ;
+}
+
+/* select elemant by ID name */
+#intro {
+    background-color: rgb(26, 146, 130);
+}
+
+/* select element by class name */
+.border {
+    border: 2px solid skyblue;
+}
