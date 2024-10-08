@@ -1,11 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Sketch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Londrina+Sketch&display=swap');
+
+
 /* this is a commenet */
 
 /* select element by type */
+body {
+    font-family: "Archivo Black", sans-serif;
+    background-color: rgb(230, 218, 238);
+}
+
 p {
     color : rgb(132, 226, 230);
 }
-h1{
-    font-family: 'Courier New', Courier, monospaced ;
+h1, h2, h3 {
+    font-family: "Londrina Sketch", sans-serif;
+
 }
 
 /* select elemant by ID name */
@@ -16,4 +26,15 @@ h1{
 /* select element by class name */
 .border {
     border: 2px solid skyblue;
+
+}
+
+/* properties: colors and typography */
+strong {
+
+    color: darkblue;
+    background-color: aqua;
+    font-family: "Londrina Sketch", sans-serif;
+    font-style: italic;
+    font-weight: 100;
 }
