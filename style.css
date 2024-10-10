@@ -38,3 +38,16 @@ strong {
     font-style: italic;
     font-weight: 100;
 }
+
+/* box Model: margin, border, padding, content */
+img{
+    border-width: 10px;
+    border-style: groove;
+    border-color: purple;
+    border-radius: 50%;
+    padding: 5px;
+}
+.centered{
+    margin: auto;
+    text-align: center;
+}
